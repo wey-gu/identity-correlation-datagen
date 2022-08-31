@@ -1,9 +1,9 @@
 # Initial Version
 # 创建一个叫做 entity_resolution 的图空间
 # Create a graph space called entity_resolution
-CREATE SPACE entity_resolution_2 (vid_type=FIXED_STRING(30));
+CREATE SPACE entity_resolution (vid_type=FIXED_STRING(30));
 :SLEEP 20
-USE entity_resolution_2;
+USE entity_resolution;
 
 # 创建点的类型 TAG
 # Create a vertex type TAG
